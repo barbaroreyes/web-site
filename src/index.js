@@ -2,11 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import  {BrowserRouter as Router} from 'react-router-dom'
+import  'tachyons'
 import reportWebVitals from './reportWebVitals';
+import Amplify from 'aws-amplify'
 
 ReactDOM.render(
   <React.StrictMode>
+    <Router>
     <App />
+    </Router>
+   
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,20 +1,21 @@
-import {useState,useEffect} from 'react'
-import {Switch,Route} from 'react-router-dom'
 import './App.css';
+
+import {
+  Route,
+  Switch,
+} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
      <Switch>
-       <Route exact path="/login">
-         Login
-       </Route>
+       
        <Route exact path="/">
           Home
-          all Categories 
+          
        </Route>
-       <Route exact path="/categoria"> 
-         Categoria
+       <Route exact path="/portafolio"> 
+         portafolio
        </Route>
        <Route exact path="/products">
          products

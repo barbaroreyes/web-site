@@ -24,7 +24,7 @@ function App() {
          product
        </Route>
        <Route exact path="/cart">
-         cart
+        
        </Route>
      </Switch>
     </div>

@@ -20,12 +20,10 @@ function App() {
        <Route exact path="/about">
          About
        </Route>
-       <Route exact path="/product">
-         product
+       <Route exact path="/contact">
+        Contact
        </Route>
-       <Route exact path="/cart">
-        
-       </Route>
+       
      </Switch>
     </div>
   );

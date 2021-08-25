@@ -17,8 +17,8 @@ function App() {
        <Route exact path="/portafolio"> 
          portafolio
        </Route>
-       <Route exact path="/products">
-         products
+       <Route exact path="/about">
+         About
        </Route>
        <Route exact path="/product">
          product

@@ -14,7 +14,7 @@ function App() {
          portafolio
        </Route>
        <Route exact path="/about">
-         About
+         About Me 
        </Route>
        <Route exact path="/contact">
         Contact
